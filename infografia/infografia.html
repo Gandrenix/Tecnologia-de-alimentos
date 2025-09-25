@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Diario de Observación de Espinacas</title>
+    <link rel="stylesheet" href="infografia.css">
+</head>
+<body>
+
+    <header>
+        <h1>Efecto del Almacenamiento en la Vida Útil de la Espinaca</h1>
+        <p class="subtitulo">Un diario de observación sobre los cambios físicos en 3 días.</p>
+    </header>
+
+    <main>
+        <section class="analysis-section">
+            <h2 class="section-heading">1. Objetivo del Experimento</h2>
+            <p>En este experimento, mi objetivo fue <strong>evaluar el efecto que tienen distintas condiciones de almacenamiento caseras (temperatura y tipo de empaque) en la vida útil de la espinaca fresca</strong>. Específicamente, busqué cuantificar los cambios físicos y visuales como la pérdida de turgencia, el color y el olor a lo largo de tres días, para así <strong>identificar la mejor práctica de conservación en el hogar</strong> que permita prolongar la frescura y reducir el desperdicio de alimentos.</p>
+        </section>
+
+        <section class="analysis-section">
+            <h2 class="section-heading">2. Procedimiento Detallado</h2>
+            <p>Para llevar a cabo la práctica, seguí los siguientes pasos basados en la guía:</p>
+            <ol>
+                <li><strong>Preparación e Higiene:</strong> Antes de manipular los alimentos, realicé un correcto lavado de manos. Posteriormente, limpié y desinfecté el área de trabajo y los utensilios a utilizar, asegurando un ambiente higiénico para el experimento.</li>
+                <li><strong>Selección de Muestras:</strong> Seleccioné aproximadamente 100 gramos de hojas de espinaca fresca. Tuve el cuidado de escoger hojas que presentaran una apariencia similar, con color verde uniforme y sin daños físicos, manchas o signos de deterioro previo.</li>
+                <li><strong>División en Grupos:</strong> Preparé tres grupos de tratamiento para la evaluación:
+                    <ul>
+                        <li><strong>Grupo A (Control):</strong> Hojas de espinaca sin empaque, dejadas a temperatura ambiente.</li>
+                        <li><strong>Grupo B (Refrigerado):</strong> Hojas sin empaque, colocadas directamente en el refrigerador.</li>
+                        <li><strong>Grupo C (Refrigerado y Empacado):</strong> Hojas guardadas en una bolsa de plástico junto a una servilleta de papel, y luego puestas en el refrigerador.</li>
+                    </ul>
+                </li>
+                <li><strong>Registro Inicial (Día 0):</strong> Documenté el estado inicial de los tres grupos mediante una fotografía. Anoté las características principales de las hojas: <strong>color</strong> verde intenso, <strong>turgencia</strong> notable (firmeza al tacto) y <strong>olor</strong> fresco característico.</li>
+                <li><strong>Observación Diaria:</strong> Durante los tres días siguientes, inspeccioné cada grupo una vez al día para registrar y documentar los cambios progresivos en su apariencia, textura y olor.</li>
+            </ol>
+        </section>
+
+        <section class="analysis-section">
+            <div class="section-title-container">
+                <button class="nav-arrow" id="prev-btn">«</button>
+                <h2 class="section-heading">3. Mi Diario de Observaciones 📝</h2>
+                <button class="nav-arrow" id="next-btn">»</button>
+            </div>
+
+            <div id="diario-observaciones" class="carousel-container">
+                <div class="carousel-track">
+                    
+                    <article class="grupo-card active" id="grupo-a">
+                        <header class="card-header">
+                            <h3>Grupo A: Control a Temperatura Ambiente</h3>
+                        </header>
+                        <div class="image-container"> <img src="dia3.png" alt="Espinacas del Grupo A marchitas" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <dl>
+                                <dt>Día 1</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Las hojas empezaron a perder un poco de firmeza; ya no se sentían tan crujientes. Se notaba un ligero marchitamiento.</li>
+                                        <li><strong>Color:</strong> El verde seguía vibrante, casi sin cambios.</li>
+                                        <li><strong>Olor:</strong> Mantenía un olor fresco, característico de la espinaca.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 2</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> La pérdida de turgencia era muy evidente. Las hojas estaban suaves y caídas.</li>
+                                        <li><strong>Color:</strong> Comencé a ver un leve amarillamiento en los bordes de algunas hojas.</li>
+                                        <li><strong>Olor:</strong> El olor fresco desapareció, dando paso a un olor ligeramente agrio y húmedo.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 3</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Las hojas se volvieron blandas y viscosas al tacto, completamente marchitas.</li>
+                                        <li><strong>Color:</strong> El amarillamiento se extendió y aparecieron algunas manchas oscuras, signo de pudrición.</li>
+                                        <li><strong>Olor:</strong> El olor ya era claramente desagradable y a descomposición.</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </article>
+
+                    <article class="grupo-card" id="grupo-b">
+                        <header class="card-header">
+                            <h3>Grupo B: Refrigerado sin Empaque</h3>
+                        </header>
+                        <div class="image-container"> <img src="dia2.png" alt="Espinacas del Grupo B ligeramente deshidratadas" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <dl>
+                                <dt>Día 1</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Se sentían casi igual de firmes que el primer día, con buena turgencia.</li>
+                                        <li><strong>Color:</strong> El color verde intenso se mantenía sin cambios.</li>
+                                        <li><strong>Olor:</strong> Completamente fresco.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 2</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Noté que las hojas estaban un poco más secas y habían perdido algo de su rigidez. El marchitamiento era leve pero visible.</li>
+                                        <li><strong>Color:</strong> El color se conservaba bien, seguía siendo verde y uniforme.</li>
+                                        <li><strong>Olor:</strong> Aún olía a espinaca fresca.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 3</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> La deshidratación era más notoria. Las hojas se sentían secas y flexibles, pero no viscosas como el Grupo A.</li>
+                                        <li><strong>Color:</strong> Se mantuvo mayormente verde, sin signos de amarillamiento o manchas.</li>
+                                        <li><strong>Olor:</strong> El olor seguía siendo neutro y fresco.</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </article>
+
+                    <article class="grupo-card" id="grupo-c">
+                        <header class="card-header">
+                            <h3>Grupo C: Refrigerado con Empaque y Servilleta</h3>
+                        </header>
+                        <div class="image-container"> <img src="dia1.jpg" alt="Espinacas del Grupo C frescas" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <dl>
+                                <dt>Día 1</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Exactamente igual que al principio. Las hojas estaban túrgidas, firmes y crujientes.</li>
+                                        <li><strong>Color:</strong> Verde vivo y brillante.</li>
+                                        <li><strong>Olor:</strong> Olor a vegetal fresco.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 2</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Sin cambios. La firmeza y frescura se mantenían intactas.</li>
+                                        <li><strong>Color:</strong> El color seguía perfecto.</li>
+                                        <li><strong>Olor:</strong> Mantenía su olor fresco característico.</li>
+                                    </ul>
+                                </dd>
+                                <dt>Día 3</dt>
+                                <dd>
+                                    <ul>
+                                        <li><strong>Textura:</strong> Las espinacas seguían crujientes y con excelente turgencia. La servilleta absorbió la poca condensación.</li>
+                                        <li><strong>Color:</strong> El color verde intenso se conservaba perfectamente.</li>
+                                        <li><strong>Olor:</strong> Olor fresco, como si las acabara de comprar.</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-section">
+            <h2 class="section-heading">4. Análisis de Resultados (El Porqué Científico)</h2>
+            <p>Los resultados observados en cada grupo pueden explicarse por los procesos fisiológicos y bioquímicos que ocurren en las hortalizas después de la cosecha.</p>
+
+            <article class="analysis-group">
+                <h3 class="group-heading">Grupo A: Deterioro Acelerado</h3>
+                <p>El colapso rápido de esta muestra se debe a que la temperatura ambiente es un catalizador para las reacciones de deterioro.</p>
+                <ul>
+                    <li><strong>Pérdida de Turgencia:</strong> La <strong>transpiración</strong>, que es la pérdida de agua del vegetal, se acelera a temperaturas elevadas. Esto causó el marchitamiento y la pérdida de firmeza que observé.</li>
+                    <li><strong>Envejecimiento y Decoloración:</strong> La <strong>respiración</strong> celular continúa después de la cosecha, consumiendo las reservas de energía y llevando a la senescencia (envejecimiento) de los tejidos. Este estrés fisiológico, potenciado por el calor, provoca la <strong>degradación de la clorofila</strong>, lo que se manifiesta como el amarillamiento de las hojas.</li>
+                    <li><strong>Mal Olor y Textura Viscosa:</strong> Las altas temperaturas son un factor crítico que favorece el <strong>crecimiento de microorganismos</strong> (agentes biológicos de deterioro). Su proliferación es la causa directa del olor a descomposición y la textura viscosa.</li>
+                </ul>
+            </article>
+
+            <article class="analysis-group">
+                <h3 class="group-heading">Grupo B: Conservación Limitada por Deshidratación</h3>
+                <p>La refrigeración es el método más eficaz para disminuir la velocidad de las reacciones químicas y enzimáticas, y para inhibir el crecimiento de la mayoría de los microorganismos. Por esta razón, el Grupo B se mantuvo en mucho mejor estado que el Grupo A. Sin embargo, la falta de un empaque protector permitió que el <strong>proceso de transpiración continuara</strong>, exponiendo las hojas al aire seco del refrigerador, lo que llevó a una deshidratación progresiva y a la pérdida de turgencia.</p>
+            </article>
+
+            <article class="analysis-group">
+                <h3 class="group-heading">Grupo C: Máxima Frescura por Doble Acción</h3>
+                <p>Este método fue el más exitoso porque combinó dos principios de conservación de forma sinérgica:</p>
+                <ul>
+                    <li><strong>Bajas Temperaturas:</strong> La refrigeración ralentizó todos los procesos metabólicos y microbianos, como ya se explicó.</li>
+                    <li><strong>Empaque y Atmósfera Modificada:</strong> La bolsa plástica cumplió dos funciones cruciales. Primero, actuó como una <strong>barrera física</strong> contra la pérdida de humedad, minimizando la transpiración y conservando la turgencia. Segundo, limitó el intercambio de gases, creando una <strong>atmósfera modificada</strong> alrededor de las espinacas. Al reducir la disponibilidad de oxígeno (O₂), se disminuyó la tasa de respiración de las hojas, retrasando aún más su envejecimiento. La servilleta fue fundamental para <strong>absorber la condensación</strong>, evitando un exceso de humedad que podría haber favorecido el crecimiento de mohos.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="analysis-section">
+            <h2 class="section-heading">5. Limitaciones del Experimento</h2>
+            <p>Durante la realización de esta práctica en un entorno doméstico, encontré las siguientes limitaciones:</p>
+            <ul>
+                <li><strong>Falta de Cuantificación de Peso:</strong> No conté con una balanza para medir la masa de las muestras cada día. Esto impidió cuantificar de manera objetiva la pérdida de peso por deshidratación, un indicador clave del deterioro.</li>
+                <li><strong>Control Ambiental:</strong> Las condiciones como la temperatura ambiente exacta, la humedad relativa y la temperatura interna del refrigerador no fueron monitoreadas con instrumentos de precisión, lo que introduce variabilidad en los resultados.</li>
+                <li><strong>Análisis Sensorial Subjetivo:</strong> La evaluación de la textura, el color y el olor se basó en la percepción personal y no en métodos instrumentales, lo que le da un carácter cualitativo y subjetivo al análisis.</li>
+            </ul>
+        </section>
+
+        <section class="analysis-section">
+            <h2 class="section-heading">6. Conclusiones</h2>
+            <ol>
+                <li>Se <strong>confirma</strong> que las condiciones de almacenamiento (temperatura y empaque) son factores determinantes en la vida útil de las espinacas.</li>
+                <li>El almacenamiento a <strong>temperatura ambiente es completamente inadecuado</strong>, ya que acelera los procesos fisiológicos postcosecha (respiración y transpiración) y el crecimiento microbiano, llevando a un deterioro total en menos de 3 días.</li>
+                <li>La <strong>refrigeración por sí sola es efectiva para retrasar el deterioro</strong>, pero es insuficiente para prevenir la pérdida de calidad por deshidratación si el producto no está protegido.</li>
+                <li>La combinación de <strong>refrigeración junto con un empaque adecuado</strong> (que actúe como barrera de humedad y cree una atmósfera modificada) es la <strong>práctica más eficaz</strong> para prolongar la frescura y las características sensoriales de las hortalizas de hoja verde en el hogar.</li>
+                <li>Se concluye que para reducir el desperdicio de alimentos y asegurar la calidad de los vegetales, es fundamental aplicar un correcto manejo poscosecha en casa, que incluye <strong>bajas temperaturas y una protección contra la pérdida de agua</strong>.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Análisis basado en la Guía de Laboratorio I: Efecto del Almacenamiento en la Vida Útil de los Alimentos. <br>Por: Andres Felipe Garcia Gualdrón-2211733
+        </p>
+    </footer>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.getElementById('next-btn');
+        const prevButton = document.getElementById('prev-btn');
+
+        // Función para mover al slide
+        const moveToSlide = (currentIndex) => {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            
+            // Actualizar la clase 'active'
+            slides.forEach((slide, index) => {
+                if (index === currentIndex) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+        };
+
+        let currentIndex = 0;
+
+        // Botón previo
+        prevButton.addEventListener('click', e => {
+            currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
+            moveToSlide(currentIndex);
+        });
+
+        // Botón siguiente
+        nextButton.addEventListener('click', e => {
+            currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
+            moveToSlide(currentIndex);
+        });
+    </script>
+
+</body>
+</html>
